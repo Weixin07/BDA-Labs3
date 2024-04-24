@@ -31,3 +31,4 @@ test_set = subset(data, split == FALSE)
 #Applying decision tree algorithms 
 tree <- rpart(TenYearCHD ~ ., data = training_set) 
 rpart.plot(tree)
+
